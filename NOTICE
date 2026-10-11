@@ -32,3 +32,15 @@ face-landmarks-mediapipe.dtmodel
   SHA-256 du paquet source : 64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff
   Modification : conversion TFLite vers ONNX (tf2onnx 1.16.1, opset 17, poids
   replies de fp16 en fp32), 2026-09-07, par Silvergrain (Selim Allee EI).
+
+paysage-detr-panoptique.dtmodel
+  Contient detr_resnet50_panoptic.onnx, export ONNX non modifie de
+  huggingface.co/Xenova/detr-resnet-50-panoptic (onnx/model.onnx,
+  SHA-256 f41a80cd659d1ae2e4981f2423955d983d28657d747e965ddc980b7768042de1),
+  depuis les poids DETR ResNet-50 panoptique (Carion et al., arXiv:2005.12872).
+  Copyright 2020 - present, Facebook, Inc.
+  Licensed under the Apache License, Version 2.0 (LICENSE-Apache-2.0.txt, ou
+  http://www.apache.org/licenses/LICENSE-2.0). Distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.
+  Source : https://github.com/facebookresearch/detr
+  Empaquetage (config.json de provenance) : Silvergrain (Selim Allee EI), 2026-10-04.
