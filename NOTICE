@@ -44,3 +44,15 @@ paysage-detr-panoptique.dtmodel
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.
   Source : https://github.com/facebookresearch/detr
   Empaquetage (config.json de provenance) : Silvergrain (Selim Allee EI), 2026-10-04.
+
+profondeur-depth-anything-v2-small.dtmodel
+  Contient depth_anything_v2_small.onnx, export ONNX non modifie de
+  huggingface.co/onnx-community/depth-anything-v2-small (onnx/model.onnx,
+  SHA-256 afb6a5c28f3b6bf1618c6e43f02073ef9dfdc70e937502d51603e57b0a1df10c),
+  depuis les poids Depth Anything V2 Small (Yang et al., arXiv:2406.09414).
+  Licensed under the Apache License, Version 2.0 (LICENSE-Apache-2.0.txt, ou
+  http://www.apache.org/licenses/LICENSE-2.0) : modele Small seulement ; les
+  modeles Base, Large et Giant (CC-BY-NC-4.0) ne sont pas servis.
+  Distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.
+  Source : https://github.com/DepthAnything/Depth-Anything-V2
+  Empaquetage (config.json de provenance) : Silvergrain (Selim Allee EI), 2026-10-04.
