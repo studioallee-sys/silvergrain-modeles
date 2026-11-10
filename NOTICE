@@ -66,3 +66,15 @@ recherche-visuelle-clip.dtmodel
   (LICENSE-CLIP.txt) et a https://github.com/openai/CLIP/blob/main/LICENSE.
   Empaquetage (config.json, LICENSE-CLIP.txt, NOTICE-CLIP.txt) : Silvergrain
   (Selim Allee EI), 2026-10-04.
+
+detourage-isnet-general.dtmodel
+  Contient isnet_general_use.onnx, export ONNX non modifie
+  (isnet-general-use.onnx, release v0.0.0 de github.com/danielgatis/rembg,
+  SHA-256 60920e99c45464f2ba57bee2ad08c919a52bbf852739e96947fbb4358c0d964a),
+  depuis les poids ISNet general-use de DIS (Qin et al., arXiv:2203.03041).
+  Copyright (c) 2022 Xuebin Qin.
+  Licensed under the Apache License, Version 2.0 (LICENSE-Apache-2.0.txt, ou
+  http://www.apache.org/licenses/LICENSE-2.0). Distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.
+  Source : https://github.com/xuebinqin/DIS
+  Empaquetage (config.json de provenance) : Silvergrain (Selim Allee EI), 2026-11-10.
