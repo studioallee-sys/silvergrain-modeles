@@ -56,3 +56,13 @@ profondeur-depth-anything-v2-small.dtmodel
   Distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.
   Source : https://github.com/DepthAnything/Depth-Anything-V2
   Empaquetage (config.json de provenance) : Silvergrain (Selim Allee EI), 2026-10-04.
+
+recherche-visuelle-clip.dtmodel
+  Contient l'export ONNX non modifie de huggingface.co/Xenova/clip-vit-base-patch32
+  (revision d15189d7028b43f1d3e65039190477f6af591c2a) : vision_model_quantized.onnx,
+  text_model.onnx, vocab.json, merges.txt ; poids CLIP ViT-B/32 d'OpenAI
+  (Radford et al., arXiv:2103.00020).
+  Copyright (c) 2021 OpenAI. MIT License : le texte complet est dans le paquet
+  (LICENSE-CLIP.txt) et a https://github.com/openai/CLIP/blob/main/LICENSE.
+  Empaquetage (config.json, LICENSE-CLIP.txt, NOTICE-CLIP.txt) : Silvergrain
+  (Selim Allee EI), 2026-10-04.
