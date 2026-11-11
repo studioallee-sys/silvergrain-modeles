@@ -78,3 +78,12 @@ detourage-isnet-general.dtmodel
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.
   Source : https://github.com/xuebinqin/DIS
   Empaquetage (config.json de provenance) : Silvergrain (Selim Allee EI), 2026-11-10.
+
+detourage-birefnet-complet.dtmodel
+  Contient birefnet.onnx, export ONNX non modifie de
+  huggingface.co/onnx-community/BiRefNet-ONNX (revision 534d3c82, onnx/model.onnx,
+  SHA-256 58f621f00f5d756097615970a88a791584600dcf7c45b18a0a6267535a1ebd3c),
+  depuis les poids BiRefNet (Zheng et al., arXiv:2401.03407).
+  Copyright (c) 2024 Peng Zheng. MIT License :
+  https://github.com/ZhengPeng7/BiRefNet/blob/main/LICENSE
+  Empaquetage (config.json de provenance) : Silvergrain (Selim Allee EI), 2026-11-10.

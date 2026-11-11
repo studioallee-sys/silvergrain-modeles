@@ -17,6 +17,7 @@ est dans son `config.json` et dans les notes de sa release.
 
 | Release | Fichier | Contenu | Licence des poids | Origine |
 |---|---|---|---|---|
+| `detourage-birefnet-complet-1.0` | `detourage-birefnet-complet.dtmodel` (817 439 676 octets) | BiRefNet complet, matte fine du sujet en 1024×1024 (cheveux, bords fins) ; export ONNX non modifié | MIT | BiRefNet, Zheng et al. — `ZhengPeng7/BiRefNet` ; export ONNX `onnx-community/BiRefNet-ONNX` |
 | `detourage-isnet-general-1.0` | `detourage-isnet-general.dtmodel` (163 908 213 octets) | ISNet general-use (DIS), matte du sujet en 1024×1024 ; export ONNX non modifié | Apache-2.0 | DIS, Qin et al. — `xuebinqin/DIS` ; export ONNX `danielgatis/rembg` (release v0.0.0) |
 | `recherche-visuelle-clip-1.0` | `recherche-visuelle-clip.dtmodel` (253 862 008 octets) | CLIP ViT-B/32 : encodeur d'image quantifié (uint8 dynamique) et encodeur de texte (fp32), vocabulaire BPE ; export ONNX non modifié | MIT | CLIP, OpenAI — `openai/CLIP` ; export ONNX `Xenova/clip-vit-base-patch32` |
 | `profondeur-depth-anything-v2-small-1.0` | `profondeur-depth-anything-v2-small.dtmodel` (91 850 964 octets) | Depth Anything V2 Small (ViT-S), profondeur relative ; export ONNX non modifié | Apache-2.0 (Small seulement) | Depth Anything V2 — `DepthAnything/Depth-Anything-V2` ; export ONNX `onnx-community/depth-anything-v2-small` |
